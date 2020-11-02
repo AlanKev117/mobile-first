@@ -8,20 +8,55 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/table.css">
 </head>
 
 <body>
     <header>
         <img src="assets/icons/logo.svg" alt="Logo de Batatabit">
-        <div class="header--title-container">
+        <div class="header__title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas</h1>
             <p>Batatabit te ayuda a navegar entre los diferents precios y tendencias.</p>
-            <a href="" class="header--button">Conoce Nuestros Planes <span></span></a>
+            <a href="" class="header__button">Conoce Nuestros Planes <span></span></a>
         </div>
     </header>
     <main>
-        <section></section>
+        <section class="main-exchange">
+            <div class="main-exchange__background-image"></div>
+            <div class="main-exchange__title">
+                <h2>Visibilizamos todas las tasas de cambio</h2>
+                <p>
+                    Traemos información real de las casas de cambio y las monedas más importantes del mundo.
+                </p>
+            </div>
+            <table class="main-exchange__table">
+                <thead>
+                    <caption>Monedas</caption>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="currency-name">Bitcoin</td>
+                        <td class="currency-value">$1.96 <span class="trend--fall"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="currency-name">Ethereum</td>
+                        <td class="currency-value">$0.07 <span class="trend--rise"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="currency-name">Ripple</td>
+                        <td class="currency-value">$2.15 <span class="trend--fall"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="currency-name">Stellar</td>
+                        <td class="currency-value">$4.96 <span class="trend--fall"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="main-exchange__status">
+                <p><b>Actualizado:</b> 19 Julio 23:45</p>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>

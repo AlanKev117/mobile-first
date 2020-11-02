@@ -49,7 +49,7 @@ header img {
     align-self: center;
 }
 
-.header--title-container {
+.header__title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -60,14 +60,14 @@ header img {
     /* position: relative; */
 }
 
-.header--title-container h1 {
+.header__title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--title-container p {
+.header__title-container p {
     margin-top: 20px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -75,7 +75,7 @@ header img {
     color: var(--soft-orange);
 }
 
-.header--button {
+.header__button {
     position: absolute;
     bottom: -24px;
     left: calc(50% - 114px);
@@ -94,10 +94,78 @@ header img {
     color: var(--warm-blacker);
 }
 
-.header--button span {
+.header__button span {
     display: inline-block;
     width: 13px;
     height: 8px;
     margin-left: 8px;
-    background-image: url("assets/icons/down_pointer.svg");
+    background-image: url("../assets/icons/down_pointer.svg");
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: var(--off-white);
+}
+
+.main-exchange__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange__background-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("../assets/icons/Bitcoin.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-blacker)
+}
+
+.main-exchange p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+.main-exchange__status {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.main-exchange__status p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }

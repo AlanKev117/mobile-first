@@ -1,0 +1,55 @@
+.main-exchange__table {
+    background-color: var(--just-white);
+    margin: 0 auto;
+    border-style: hidden;
+    border-collapse: collapse;
+    
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-family: "Inter", "sans-serif";
+    font-size: 1.6rem;
+    color: rgba(181, 176, 172, 1);
+}
+
+.main-exchange__table caption {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+
+    color: var(--bitcoin-orange);
+    font-family: "DM Sans", "sans-serif";
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.main-exchange__table td {
+    padding: 15px;
+    border: 1px solid var(--off-white);
+}
+
+.main-exchange__table .currency-value {
+    color: rgba(117, 117, 117, 1)
+}
+
+.trend--rise {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    
+    background-image: url("../assets/icons/trending_up.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trend--fall {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    
+    background-image: url("../assets/icons/trending_down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
