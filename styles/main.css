@@ -49,6 +49,7 @@ header img {
 
 .header__title-container {
     width: 90%;
+    margin: 20px auto;
     min-width: 288px;
     max-width: 900px;
     height: 218px;
@@ -450,3 +451,49 @@ main {
     line-height: 1.4rem;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    background-color: var(--bitcoin-orange);
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contact ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.contact li {
+    margin: 10px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--just-white)
+}
+
+footer .logo span {
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    background-image: url("../assets/icons/chip.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .logo * {
+    margin: 5px;
+    color: var(--just-white);
+}
