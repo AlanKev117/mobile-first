@@ -9,7 +9,9 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/main-table.css">
+    <link rel="stylesheet" href="styles/commissions-table.css">
+    <link rel="stylesheet" href="styles/tablet.css" media="(min-width: 930px)">
 </head>
 
 <body>
@@ -30,32 +32,64 @@
                     Traemos información real de las casas de cambio y las monedas más importantes del mundo.
                 </p>
             </div>
-            <table class="main-exchange__table">
-                <thead>
-                    <caption>Monedas</caption>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="currency-name">Bitcoin</td>
-                        <td class="currency-value">$1.96 <span class="trend--fall"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="currency-name">Ethereum</td>
-                        <td class="currency-value">$0.07 <span class="trend--rise"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="currency-name">Ripple</td>
-                        <td class="currency-value">$2.15 <span class="trend--fall"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="currency-name">Stellar</td>
-                        <td class="currency-value">$4.96 <span class="trend--fall"></span></td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="main-exchange__status">
-                <p><b>Actualizado:</b> 19 Julio 23:45</p>
-            </div>
+            <div class="main-exchange__tables">
+                <div class="table-wrapper">
+                    <table class="main-exchange__table">
+                        <thead>
+                            <caption>Monedas</caption>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="currency-name">Bitcoin</td>
+                                <td class="currency-value">$1.96 <span class="trend--fall"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Ethereum</td>
+                                <td class="currency-value">$0.07 <span class="trend--rise"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Ripple</td>
+                                <td class="currency-value">$2.15 <span class="trend--fall"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Stellar</td>
+                                <td class="currency-value">$4.96 <span class="trend--fall"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="main-exchange__status">
+                        <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table class="commissions__table">
+                        <thead>
+                            <caption>Comisiones</caption>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="currency-name">Bitrade</td>
+                                <td class="currency-value">$12.96</td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Bitpreco</td>
+                                <td class="currency-value">$13.07</td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Novadax</td>
+                                <td class="currency-value">$13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="currency-name">Coinext</td>
+                                <td class="currency-value">$14.96</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="commissions__status">
+                        <p><b>Actualizado:</b> 19 Julio 23:48</p>
+                    </div>
+                </div>
+
         </section>
         <section class="features">
             <span class="features__logo"></span>

@@ -52,3 +52,22 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.main-exchange__status {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.main-exchange__status p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}

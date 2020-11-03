@@ -1,0 +1,29 @@
+.features__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plans__cards {
+    justify-content: center;
+}
+
+.wrapper:last-of-type {
+    padding-right: 0;
+}
+
+.wrapper:first-of-type {
+    padding-left: 0;
+}
+
+
+.main-exchange__tables {
+    justify-content: center;
+}
+
+.table-wrapper:last-of-type {
+    padding-right: 0;
+}
+
+.table-wrapper:first-of-type {
+    padding-left: 0;
+}
