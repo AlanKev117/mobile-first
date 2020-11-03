@@ -31,8 +31,6 @@ html {
 
 header {
     position: relative;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     width: 100%;
     min-width: 320px;
@@ -112,7 +110,7 @@ main {
     width: 100%;
     height: auto;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: var(--off-white);
 }
@@ -168,4 +166,133 @@ main {
     font-weight: 300;
     line-height: 1.5rem;
     color: var(--warm-black);
+}
+
+.features {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px;
+    padding-top: 30px;
+
+    background-color: var(--warm-black);
+}
+
+.features__logo {
+    position: absolute;
+    width: 40.57px;
+    height: 24.01px;
+	top: -12px;
+    left: calc(50% - 20px);
+    
+    background-image: url("../assets/icons/chip.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features__title h2 {
+    text-align: center;
+    margin: 20px;
+    
+    font-family: "DM Sans", "sans-serif";
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.features__title p {
+    padding-bottom: 20px;
+
+    text-align: center;
+    font-family: "DM Sans", "sans-serif";
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.feature-card {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    padding: 15px;
+
+    background-color: var(--warm-blacker);
+    border-radius: 4px;
+    margin: 10px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    
+}
+
+.feature-card h3 {
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+    font-family: "DM Sans", "sans-serif";
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.feature-card p {
+    text-align: left;
+    font-family: "DM Sans", "sans-serif";
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.feature-card span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.feature-card--time span {
+    background-image: url("../assets/icons/clock.svg");
+}
+
+.feature-card--eye span {
+    background-image: url("../assets/icons/eye.svg");
+}
+
+.feature-card--coin span {
+    background-image: url("../assets/icons/dollar_sign.svg");
+}
+
+.feature-card--trust span {
+    background-image: url("../assets/icons/check_circle.svg");
+}
+
+.banner {
+    width: 100%;
+    min-width: 320px;
+    height: 90vh;
+    background-image: url("../assets/images/bitcoinbaby.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h2 {
+    text-align: center;
+
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
